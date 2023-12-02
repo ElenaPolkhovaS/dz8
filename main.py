@@ -6,7 +6,7 @@ from datetime import date, datetime, timedelta
 
 def get_birthdays_per_week(input_users):
     """
-    Функція визначає список співробітників, які святкують день народження протягом тижня.
+    Функція визначає список співробітників, які святкують день народження наступного тижня.
 
     Args:
     input_users (list): Список співробітників у форматі {"name": str, "birthday": date}.
